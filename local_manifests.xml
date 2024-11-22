@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="hyperteam" fetch="https://github.com/HyperTeam" />
+  <remote name="local" fetch="https://github.com/bemolxd" />
 
-  <project path="device/lenovo/karatep" name="android_device_lenovo_karatep" remote="hyperteam" revision="lineage-18.1" />
-  <project path="device/lenovo/karate-common" name="android_device_lenovo_karate-common" remote="hyperteam" revision="lineage-18.1" />
-  <project path="kernel/lenovo/msm8937" name="android_kernel_lenovo_msm8937" remote="hyperteam" revision="lineage-18.1" />
-  <project path="vendor/lenovo" name="proprietary_vendor_lenovo" remote="hyperteam" revision="lineage-18.1" />
+  <project path="device/lenovo/karatep" name="android_device_lenovo_karatep" remote="local" revision="lineage-19.1" />
+  <project path="device/lenovo/karate-common" name="android_device_lenovo_karate-common" remote="local" revision="lineage-19.1" />
+  <project path="kernel/lenovo/msm8937" name="android_kernel_lenovo_msm8937" remote="local" revision="lineage-19.1" />
+  <project path="vendor/lenovo" name="proprietary_vendor_lenovo" remote="local" revision="lineage-19.1" />
 </manifest>
